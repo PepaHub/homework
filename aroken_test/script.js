@@ -1,2 +1,2 @@
 console.log('Hello from console')
-alert('Press the button')
+alert('Press the button to continue')
