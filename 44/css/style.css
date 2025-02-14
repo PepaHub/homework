@@ -1,0 +1,24 @@
+.one {
+    width: 1300px;
+    height: 800px;
+    background-color: pink;
+    overflow: auto;
+    border-left-radius: 10px;
+    margin: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.block {
+    width: 250px;
+    height: 250px;
+    background-color: blanchedalmond;
+
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10%;
+
+    display: inline-block;
+    box-shadow: 0 0 5px black;
+}
