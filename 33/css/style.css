@@ -1,31 +1,35 @@
-.text-1   {
+.text-1 {
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 1.5;
     font-weight: 300;
     font-style: italic;
 }
 
 .text-2 {
-font-family: "arial", sans-serif;
-text-decoration: line-through;
-
+    font-family: "Arial", sans-serif;
+    text-decoration: line-through;
+    padding: 15px 0;
 }
 
 .text-3 {
     text-indent: 40px;
     text-align: center;
     text-transform: uppercase;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .text-4 {
-    color: blueviolet;
+    color: #8A2BE2;
     word-spacing: 30px;
     text-decoration: overline;
     text-decoration-style: wavy;
+    margin: 20px 0;
 }
 
 .text-5 {
     letter-spacing: 5px;
     text-decoration: underline;
+    line-height: 2;
 }
