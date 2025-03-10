@@ -22,13 +22,13 @@ console.log(myProfile);
 
 // Объект с методом приветствия
 const person = {
-    name: "Иван",
-    приветствие(name) {
+    name: "Ivan",
+    greeting(name) {
         return `Hello "${name}"`;
     }
 };
 
-console.log(person.приветствие("Анна"));
+console.log(person.greeting("Anna"));
 
 // Массив объектов с информацией о пользователях
 const users = [
@@ -60,15 +60,15 @@ const users = [
 ];
 
 // Переменная для подсчета количества обычных пользователей
-let обычныеПользователи = 0;
+let regularUsers = 0;
 
 // Цикл для перебора всех пользователей в массиве
-for (let пользователь of users) {
+for (let user of users) {
     // Проверяем, является ли пользователь НЕ администратором
-    if (!пользователь.isAdmin) {
-        обычныеПользователи++; // Увеличиваем счетчик на 1
+    if (!user.isAdmin) {
+        regularUsers++; // Увеличиваем счетчик на 1
     }
 }
 
-console.log(`Количество обычных пользователей: ${обычныеПользователи}`);
+console.log(`Number of regular users: ${regularUsers}`);
 
