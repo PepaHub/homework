@@ -733,10 +733,10 @@ body {
         background: #fff;
         width: 200px;
         border-radius: 10px;
-        margin-top: 10px;   /* внешний отступ сверху */
-        margin-left: 10px;  /* внешний отступ слева */
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08); /* легкая тень для красоты */
-        padding: 10px 0;    /* внутренний отступ сверху и снизу */
+        margin-top: 10px;
+        margin-left: 10px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+        padding: 10px 0;
     }
 
     .navi.navi__mob {
@@ -745,8 +745,8 @@ body {
 
     .navi__list {
         flex-direction: column;
-        padding: 0 16px; /* внутренний отступ слева и справа */
-        gap: 12px;       /* уменьшить или увеличить расстояние между пунктами */
+        padding: 0 16px;
+        gap: 12px;
     }
 
     .navi__link {
