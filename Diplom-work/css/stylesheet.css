@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Monument Extended';
+    src: local('Monument Extended Ultrabold'), local('MonumentExtended-Ultrabold'),
+        url('../fonts/MonumentExtended-Ultrabold.woff2') format('woff2'),
+        url('../fonts/MonumentExtended-Ultrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: local('Monument Extended Regular'), local('MonumentExtended-Regular'),
+        url('../fonts/MonumentExtended-Regular.woff2') format('woff2'),
+        url('../fonts/MonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
