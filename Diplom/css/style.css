@@ -55,8 +55,8 @@ body {
     z-index: 4;
 }
 
-.navi__mob {
-    display: block !important;
+.navi .navi__mob {
+    display: block;
 }
 
 .nav__mobile {
@@ -732,10 +732,34 @@ body {
         left: 0;
         background: #fff;
         width: 200px;
+        border-radius: 10px;
+        margin-top: 10px;   /* внешний отступ сверху */
+        margin-left: 10px;  /* внешний отступ слева */
+        box-shadow: 0 4px 16px rgba(0,0,0,0.08); /* легкая тень для красоты */
+        padding: 10px 0;    /* внутренний отступ сверху и снизу */
+    }
+
+    .navi.navi__mob {
+        display: block;
     }
 
     .navi__list {
         flex-direction: column;
+        padding: 0 16px; /* внутренний отступ слева и справа */
+        gap: 12px;       /* уменьшить или увеличить расстояние между пунктами */
+    }
+
+    .navi__link {
+        padding: 10px 0;
+        font-size: 18px;
+        color: #040404;
+        border-radius: 6px;
+        transition: background 0.2s;
+    }
+
+    .navi__link:hover {
+        background: #f1f1f1;
+        color: #de343d;
     }
 
     .header2 {
