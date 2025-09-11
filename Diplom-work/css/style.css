@@ -31,11 +31,11 @@ body {
 }
 
 .main {
-    background: #fff;
+    background: var(--color-white);
 }
 
 .header-top {
-    background: #fff;
+    background: var(--color-white);
     padding: 29px 0 29px 0;
 }
 
@@ -48,7 +48,7 @@ body {
     font-size: 12px;
     line-height: 2.13;
     letter-spacing: 0.07em;
-    color: #000;
+    color: var(--color-black);
 }
 
 .navi {
@@ -70,7 +70,7 @@ body {
     display: block;
     width: 30px;
     height: 3px;
-    background: #000;
+    background: var(--color-black);
     position: relative;
 }
 
@@ -80,7 +80,7 @@ body {
     display: block;
     width: 30px;
     height: 3px;
-    background: #000;
+    background: var(--color-black);
     position: absolute;
 }
 
@@ -144,13 +144,13 @@ body {
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    border: 1px solid #fff;
+    border: 1px solid var(--color-white);
     background-color: transparent;
     transition: all 0.4s;
 }
 
 .header2__krug-active {
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 .header2__krug-active::after {
@@ -161,7 +161,7 @@ body {
     left: 17px;
     width: 50px;
     height: 1px;
-    background-color: #fff;
+    background-color: var(--color-white);
     transition: all 0.4s;
 }
 
@@ -188,9 +188,9 @@ body {
     justify-content: center;
     width: 196px;
     height: 65px;
-    color: #fff;
+    color: var(--color-white);
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid var(--color-white);
     font-size: 20px;
     line-height: 2.5;
 }
@@ -225,7 +225,7 @@ body {
 }
 
 .products__text {
-    color: #de343d;
+    color: var(--color-red);
     font-size: 37px;
     line-height: 40px;
 }
@@ -236,7 +236,7 @@ body {
 }
 
 .products__sumbit-button {
-    color: #808080;
+    color: var(--color-gray);
     background: transparent;
     padding: 5px 20px 5px 20px;
     border: 1.26px solid #dedede;
@@ -252,7 +252,7 @@ body {
     font-size: 15px;
     line-height: 40px;
     letter-spacing: 1.26px;
-    color: #808080;
+    color: var(--color-gray);
     background: transparent;
     border: 1.26px solid #dedede;
     padding: 5px 20px 5px 50px;
@@ -263,8 +263,8 @@ body {
     display: none;
     position: absolute;
     z-index: 2;
-    color: #808080;
-    background-color: #fff;
+    color: var(--color-gray);
+    background-color: var(--color-white);
 }
 
 .products__spisok-sort--show {
@@ -294,13 +294,13 @@ body {
     left: -150px;
     min-width: 307px;
     border: 1px solid #dedede;
-    color: #808080;
+    color: var(--color-gray);
     padding: 10px;
     display: none;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     z-index: 2;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 .products__filters-vibor--active {
@@ -387,20 +387,20 @@ body {
 .title2 {
     font-size: 25px;
     line-height: 1.4;
-    color: #040404;
+    color: var(--color-black);
 }
 
 .price {
     font-size: 20px;
     line-height: 1.4;
-    color: #040404;
+    color: var(--color-black);
 }
 
 .size {
     font-size: 18px;
     line-height: 1.4;
     letter-spacing: 0.08em;
-    color: #de343d;
+    color: var(--color-red);
 }
 
 .products__bottom {
@@ -416,7 +416,7 @@ body {
     font-size: 20px;
     line-height: 2.55727;
     letter-spacing: 0.08em;
-    color: #808080;
+    color: var(--color-gray);
 }
 
 .about__top {
@@ -504,7 +504,7 @@ body {
     font-size: 20px;
     line-height: 2.55727;
     letter-spacing: 0.08em;
-    color: #040404;
+    color: var(--color-black);
     background: transparent;
 }
 
@@ -557,7 +557,7 @@ body {
     font-weight: 800;
     font-size: 21px;
     line-height: 1.245;
-    color: #de343d;
+    color: var(--color-red);
 }
 
 .footer__about {
@@ -568,7 +568,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.245;
-    color: #de343d;
+    color: var(--color-red);
 }
 
 @media (max-width: 1920px) {
@@ -752,14 +752,14 @@ body {
     .navi__link {
         padding: 10px 0;
         font-size: 18px;
-        color: #040404;
+        color: var(--color-black);
         border-radius: 6px;
         transition: background 0.2s;
     }
 
     .navi__link:hover {
         background: #f1f1f1;
-        color: #de343d;
+        color: var(--color-red);
     }
 
     .header2 {
