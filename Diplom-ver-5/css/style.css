@@ -118,12 +118,14 @@
 .header2__inner {
     height: auto;
     position: relative;
+    
 }
 
 .header2__max {
     position: absolute;
     top: 230px;
     left: -70px;
+    
 }
 
 .header2__krug-box {
@@ -198,7 +200,7 @@
 /*============================*/
 
 .section1 {
-    padding: 84px 95px 154px 96px;
+    padding: 84px 15px 154px 15px;
 }
 
 
@@ -917,4 +919,32 @@
     .footer__ssilka {
         font-size: 12px;
     }
+}
+
+/* помести в конец style.css, чтобы переопределить всё остальное */
+.search input.header1__inp,
+.header1 .search input,
+.search input[type="text"],
+.search input[type="search"] {
+    background-color: var(--color-background);
+    border: 1px solid #dedede;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: var(--color-text);
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+/* плейсхолдер */
+.search input.header1__inp::placeholder {
+    color: var(--color-text-secondary);
+    opacity: 1;
+}
+
+/* стиль при фокусе */
+.search input.header1__inp:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(222, 52, 61, 0.08);
 }
