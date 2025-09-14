@@ -450,20 +450,15 @@
 }
 
 .section2__notjust-text {
-    font-family: var(--font-family, "Monument Extended", Arial, sans-serif);
-    font-weight: 400;
-    font-size: 105px;
-    line-height: 140%;
-    text-transform: capitalize;
-    color: #000;
+    font-size: 4.5rem;           /* еще больше размер шрифта */
+    line-height: 1.05;
+    font-weight: 800;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 0.7em;
     justify-content: center;
     text-align: center;
-    width: 100%;
-    height: 100%;
 }
 
 .section2__notjust-text img {
@@ -1161,5 +1156,42 @@
     .section3__grid .kros__slide--pr:last-child,
     .section3__grid .kros__slide--none:last-child {
         opacity: 0.5;
+    }
+}
+
+@media (max-width: 1652px) and (min-width: 901px) {
+    .section2__top {
+        gap: 32px;
+        margin-bottom: 48px;
+        padding-top: 24px;
+    }
+    .section2__notjust-text {
+        font-size: 2.8rem;
+        gap: 0.4em;
+        flex-wrap: wrap;
+        word-break: break-word;
+    }
+    .section2__notjust-text img {
+        height: 2.2em;
+        max-width: 30vw;
+    }
+    .section2__logos {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 3vw;
+    }
+    .section2__logos img {
+        max-height: 54px;
+        max-width: 110px;
+        width: auto;
+        height: auto;
+        flex-shrink: 1;
+    }
+    .section2__notjust-break {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.2em;
+        width: auto;
     }
 }
